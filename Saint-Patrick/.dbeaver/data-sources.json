@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17e44aac2c5-a1b8ae026c968aa": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "bjrwn8wk9luae7fbhvk6",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "bjrwn8wk9luae7fbhvk6-mysql.services.clever-cloud.com",
+				"port": "3306",
+				"database": "bjrwn8wk9luae7fbhvk6",
+				"url": "jdbc:mysql://bjrwn8wk9luae7fbhvk6-mysql.services.clever-cloud.com:3306/bjrwn8wk9luae7fbhvk6",
+				"home": "mysql_client",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
